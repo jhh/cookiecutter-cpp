@@ -1,6 +1,10 @@
 {
     "project_name": "My Project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "use_spdlog": "y",
+    "use_opencv": "n",
+    "use_ntcore": "n",
+    "use_tbb": "n",
     "_copy_without_render": [
         ".gitignore",
         ".clang-format"
